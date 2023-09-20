@@ -1,0 +1,115 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Signup container styles */
+  .signup-container {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  /* Left side styles */
+  .left {
+    flex: 1;
+    padding: 50px;
+    background-color: #068c4e; /* Green background color */
+    color: #fff;
+  }
+  
+  .left h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .left p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .left a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  /* Right side styles */
+  .right {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Form styles */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  button {
+    background-color: #0b7443; /* Green button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #076d3d; /* Darker green on hover */
+  }
+  
+  /* Social media login styles */
+  .social-media-login {
+    margin-top: 20px;
+  }
+  
+  .social-media-login p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .social-media-login a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #02301b; /* Green social media icons */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .signup-container {
+      flex-direction: column;
+    }
+    .left,
+    .right {
+      padding: 30px;
+    }
+  }
+  
