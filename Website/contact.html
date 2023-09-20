@@ -4,29 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css"
 </head>
 </html>
 <body>
-<div class="container">
-      <h2>Contact Us</h2>
-      <p>leave us a message:</p>
-      <div class="form">
-        <form action="/action_page.php">
-         <a><label for="fname">First Name</label></a> 
-          <p><input type="text" id="fname" name="firstname" placeholder="Your name.."></p>
-          <p><label for="lname">Last Name</label></p>
-          <P><input type="text" id="lname" name="lastname" placeholder="Your last name.."></P>
-         <p><label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-        </p> 
-        <p><label for="subject">Subject</label></p>  
-         <p><textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea></p>  
-          <input type="submit" value="Submit">
-        </form>
-  </div>
+  <div class="container">
+    <div class="left-side"></div>
+    <div class="right-side">
+        <h2>Contact Us</h2>
+        <p>Leave us a message:</p>
+        <div class="form">
+            <form action="/action_page.php">
+                <P><label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name.."></P>
+                <label for="emailId">Email Id</label>
+                <input type="text" id="emailId" name="emailId" placeholder="Your Email..">
+                <p><label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="india">India</option>
+                </select></p>
+                <p><label for="subject">Subject</label></p>
+                <p><textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea></p>
+                <p><input type="submit" value="Submit"></p>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
 </body>
 </html>

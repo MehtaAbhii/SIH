@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.left-side {
+    flex: 1;
+    background-image: url('contactlayout.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 600px; 
+    min-width: 300px;
+    border-radius: 20px;
+
+}
+
+.right-side {
+    flex: 1;
+    padding: 20px;
+    min-width: 400px;
+}
+
+.form {
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+

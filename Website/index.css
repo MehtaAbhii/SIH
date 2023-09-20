@@ -38,3 +38,10 @@ div{
     font-size: x-large;
 
 }
+
+#searchbar {
+    width: 70px;
+    border-radius: 20px; 
+    padding: 10px; 
+    border-color: black;
+}

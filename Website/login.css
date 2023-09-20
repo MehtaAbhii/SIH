@@ -1,103 +1,104 @@
 /* Reset default styles */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body styles */
-body {
-  font-family: Arial, sans-serif;
-  background-image: url('background-image.jpg'); /* Replace with your background image */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  height: 100vh;
-  overflow: hidden;
-}
-
-/* Login container styles */
-.box-form {
-  background-color: #0a8c4f; /* Green background color */
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  width: 400px;
-  margin: 0 auto;
-  padding: 30px;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-/* Header styles */
-.box-form h1 {
-  font-size: 32px;
-  color: #fff;
-  margin-bottom: 20px;
-}
-
-/* Input styles */
-.box-form input[type="text"],
-.box-form input[type="password"] {
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-  width: 100%;
-}
-
-/* Checkbox styles */
-.text-checkbox {
-  margin-left: 5px;
-  color: #fff;
-}
-
-/* Button styles */
-.box-form button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-.box-form button:hover {
-  background-color: #0056b3;
-}
-
-/* Forgot password styles */
-.forget-pass {
-  color: #fff;
-  margin-top: 10px;
-}
-
-.forget-pass a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-}
-
-/* Social media login styles */
-span {
-  display: block;
-  margin-top: 20px;
-  color: #fff;
-}
-
-span p {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-span a {
-  text-decoration: none;
-  margin-right: 10px;
-  font-size: 24px;
-  color: #fff;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('background-image.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Login container styles */
+  .box-form {
+    background-color: #0a8c4f; /* Green background color */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Header styles */
+  .box-form h1 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Input styles */
+  .box-form input[type="text"],
+  .box-form input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  /* Checkbox styles */
+  .text-checkbox {
+    margin-left: 5px;
+    color: #fff;
+  }
+  
+  /* Button styles */
+  .box-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .box-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Forgot password styles */
+  .forget-pass {
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  .forget-pass a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Social media login styles */
+  span {
+    display: block;
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  span p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  span a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #fff;
+  }
+  
