@@ -28,7 +28,7 @@
   .left {
     flex: 1;
     padding: 50px;
-    background-color: #068c4e; /* Green background color */
+    background-image: url('leaf1.jpg');  /* Green background color */
     color: #fff;
   }
   

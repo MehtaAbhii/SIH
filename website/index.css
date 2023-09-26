@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar {
+    height: 60px;
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Add a very light straight line at the bottom of the navbar */
+}
+
+#logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+#logo-text {
+    font-size: 24px;
+    color: rgb(51, 116, 51);
+    margin-right: -20px;
+    margin-left: -150px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(51, 116, 51);
+    margin-right: 10px;
+}
+
+div {
+    text-align: center;
+    line-height: 60px;
+}
+
+
+#searchbar {
+    width: 70px;
+    border-radius: 20px;
+    padding: 10px;
+    border-color: #4CAF50;
+}
+
+#plant-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.plant-box {
+    width: 300px;
+    height: 260px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.plant-box img {
+    width: 90%;
+    max-height: 100px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.plant-box h3 {
+    font-size: 16px;
+    margin: 0;
+    font-style: italic;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.plant-box p {
+    font-size: 12px;
+    line-height: 12px;
+    color: #555;
+}
+
+#Sanskrit {
+    color: black;
+    text-align: center;
+    font-size: x-large;
+}
+
+#english {
+    color: rgb(99, 93, 93);
+    font-size: x-large;
+}
+
+footer {
+    background: #4b4949;
+    color: #fff;
+    padding: 20px 0;
+}
+
+#footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-section {
+    width: 30%;
+    padding: 0 10px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.4;
+}

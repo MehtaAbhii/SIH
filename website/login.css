@@ -8,7 +8,7 @@
   /* Body styles */
   body {
     font-family: Arial, sans-serif;
-    background-image: url('background-image.jpg'); /* Replace with your background image */
+    background-image: url('leaf1.jpg'); /* Replace with your background image */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,7 +19,7 @@
   
   /* Login container styles */
   .box-form {
-    background-color: #0a8c4f; /* Green background color */
+    background-color: #1ab76e; /* Green background color */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     width: 400px;
